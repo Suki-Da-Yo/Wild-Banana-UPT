@@ -13,7 +13,7 @@
 
 ## Установка
 ```bash
-git clone https://github.com/<YOUR_GH_USERNAME>/unified-pentest.git
+git clone https://github.com/<YOUR_GH_USERNAME>/unified-pentest.git](https://github.com/Suki-Da-Yo/unified-pentest.git
 cd unified-pentest
 python3 -m venv .venv
 source .venv/bin/activate
