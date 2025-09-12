@@ -1,0 +1,15 @@
+# Виртуальное окружение
+.venv/
+
+# Кэш питона
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Системные файлы
+*.DS_Store
+
+# Локальные настройки
+.settings.json
+settings.json

@@ -1,0 +1,15 @@
+intents:
+  - pattern: "(скан|scan|nmap)"
+    action: "nmap_scan"
+  - pattern: "(трафик|sniff|capture|tcpdump|tshark)"
+    action: "traffic_capture"
+  - pattern: "(парол|hydra|brut)"
+    action: "password_guess"
+
+defaults:
+  nmap_scan:
+    params: {"target": "192.168.1.0/24", "flags": "-sV -T4"}
+  traffic_capture:
+    params: {"iface": "eth0", "filter": "tcp", "outfile": "capture.pcap"}
+  password_guess:
+    params: {"service": "ssh", "target": "192.168.1.10", "user": "root", "wordlist": "/usr/share/wordlists/rockyou.txt"}
