@@ -13,7 +13,7 @@
 
 ## Установка
 ```bash
-git clone https://github.com/Suki-Da-Yo/unified-pentest.git
+git clone https://github.com/Suki-Da-Yo/Wild-Banana-UPT.git
 cd unified-pentest
 python3 -m venv .venv
 source .venv/bin/activate
